@@ -4,51 +4,220 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/swiper-bundle.min.css" />
 		<link rel="stylesheet" href="./style.css" />
 		<title>Doma</title>
 	</head>
 	<body>
-		<header></header>
+		<header>
+			<div class="header__box">
+				<a href="#" class="header__logo"></a>
+				<button class="header__button">Обратный звонок</button>
+				<div class="header__address">
+					<p>г. Санкт-Петербург</p>
+					<p>ш. Революции д.84 оф 303</p>
+				</div>
+				<div class="header__num-logo">
+					<img src="./assets/img/phone black.png" alt="Телефон" />
+				</div>
+				<div class="header__num">
+					<p>8-999-999-99-99</p>
+					<p>8-999-999-99-99</p>
+				</div>
+			</div>
+			<nav class="nav">
+				<a href="#" class="nav__item">
+					<p>Проекты</p>
+				</a>
+				<a href="#" class="nav__item">
+					<p>Акции</p>
+				</a>
+				<a href="#" class="nav__item">
+					<p>Сип панели</p>
+				</a>
+				<a href="#" class="nav__item">
+					<p>Наши работы</p>
+				</a>
+				<a href="#" class="nav__item">
+					<p>О компании</p>
+				</a>
+				<a href="#" class="nav__item">
+					<p>Контакты</p>
+				</a>
+			</nav>
+		</header>
 
-		<main></main>
+		<main>
+			<div class="slider__wrapper1 mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+					<div class="swiper-slide">Slide 4</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination" style="bottom: auto"></div>
+			</div>
+
+			<div class="why-us">
+				<p class="why-us__title">Почему стоит выбрать нас?</p>
+				<div class="why-us__card-wrapper">
+					<div class="why-us__card">
+						<div class="why-us__card-box">
+							<img
+								src="./assets/img/card_calendar.png"
+								alt=""
+								class="why-us__card-logo"
+							/>
+							<p class="why-us__card-title">Быстро и надежно</p>
+						</div>
+						<p class="why-us__card-desc">
+							Строительство дома происходит в среднем 20 дней с момента
+							заключения договора, а качественно возведенный дом будет
+							радовать Вас и Вашу семью долгие годы
+						</p>
+					</div>
+					<div class="why-us__card">
+						<div class="why-us__card-box">
+							<img
+								src="./assets/img/card_sun.png"
+								alt=""
+								class="why-us__card-logo"
+							/>
+							<p class="why-us__card-title">Энергоэффективно</p>
+						</div>
+						<p class="why-us__card-desc">
+							Вы сможете экономить на отоплении в холодный период.
+							Коттеджи из СИП панелей теплее каркасных, срубов и
+							каменных. Экономия на электричестве в 5-6 раз по сравнению
+							с традиционными домами
+						</p>
+					</div>
+					<div class="why-us__card">
+						<div class="why-us__card-box">
+							<img
+								src="./assets/img/card_hammer.png"
+								alt=""
+								class="why-us__card-logo"
+							/>
+							<p class="why-us__card-title">Простота сборки</p>
+						</div>
+						<p class="why-us__card-desc">
+							Монтажникам достаточно добрать дома как «конструктор» в
+							соответствии с проектом.За счет легкости конструкции можно
+							доставить практически всюду
+						</p>
+					</div>
+					<div class="why-us__card">
+						<div class="why-us__card-box">
+							<img
+								src="./assets/img/card_eco.png"
+								alt=""
+								class="why-us__card-logo"
+							/>
+							<p class="why-us__card-title">Безопасно и экологично</p>
+						</div>
+						<p class="why-us__card-desc">
+							Материалы наших СИП панелей экологически чисты и не
+							содержат фенол, формальдегид или другие вещества в
+							концентрациях, опасных для здоровья жителей дома
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
 
 		<footer>
 			<div class="footer">
 				<div class="footer__wrapper">
-					<p class="footer__about">
-						КОМПАНИЯ РУССИП Производим и продаем каркасные дома из СИП
-						панелей Компания Руссип имеет свой собственный завод по
-						производству комплектов домов из сип панелей по канадской
-						технологии, площадью 5200 м2, из которых 1200 м2 составляет
-						производство по обработке древесины, 980 м2 – производственная
-						линия по изготовлению сип, и около 3000 м2 – складские
-						помещения для хранения готовой продукции.
-					</p>
-					<div class="footer__info">
-						<div class="footer__address">
-							<img src="" alt="" class="footer__icon" />
-							<p class="footer__text">
-								Офис: Санкт-Петербург ш. Революции д.84 оф 303
-							</p>
-							<p class="footer__text">
-								Производство: Ленинградская обл. г.Всеволожск
-							</p>
+					<div class="footer__about-box">
+						<p>КОМПАНИЯ РУССИП</p>
+						<p>Производим и продаем каркасные дома из СИП панелей</p>
+						<p class="footer__about">
+							Компания Руссип имеет свой собственный завод по
+							производству комплектов домов из сип панелей по канадской
+							технологии, площадью 5200 м2, из которых 1200 м2 составляет
+							производство по обработке древесины, 980 м2 –
+							производственная линия по изготовлению сип, и около 3000 м2
+							– складские помещения для хранения готовой продукции.
+						</p>
+						<div class="footer__links">
+							<butoon class="footer__links-item">
+								<p>Проекты</p>
+							</butoon>
+							<butoon class="footer__links-item">
+								<p>Наши работы</p>
+							</butoon>
+							<butoon class="footer__links-item">
+								<p>Акции</p>
+							</butoon>
+							<butoon class="footer__links-item">
+								<p>Сип-панели</p>
+							</butoon>
+							<butoon class="footer__links-item">
+								<p>О компании</p>
+							</butoon>
+							<butoon class="footer__links-item">
+								<p>Контакты</p>
+							</butoon>
 						</div>
-						<div class="footer__mail">
-							<img src="" alt="" class="footer__icon" />
+					</div>
+					<div class="footer__info">
+						<div class="footer__info-item footer__address">
+							<img
+								src="./assets/img/geo.svg"
+								alt=""
+								class="footer__icon"
+							/>
+							<div class="footer__address-text">
+								<p class="footer__text" style="margin-top: auto">
+									Офис: Санкт-Петербург ш. Революции д.84 оф 303
+								</p>
+								<p class="footer__text" style="margin-bottom: auto">
+									Производство: Ленинградская обл. г.Всеволожск
+								</p>
+							</div>
+						</div>
+						<div class="footer__info-item footer__mail">
+							<img
+								src="./assets/img/mail.svg"
+								alt=""
+								class="footer__icon"
+							/>
 							<p class="footer__text">lamminhouse.ltd@gmail.com</p>
 						</div>
-						<div class="footer__number">
-							<img src="" alt="" class="footer__icon" />
+						<div class="footer__info-item footer__number">
+							<img
+								src="./assets/img/phone.svg"
+								alt=""
+								class="footer__icon"
+							/>
 							<p class="footer__text">8-999-999-99-99</p>
 							<p class="footer__text">8-999-999-99-99</p>
 						</div>
-						<div class="footer__social">
-							<img src="" alt="" class="footer__icon" />
-							<img src="" alt="" class="footer__icon" />
-							<img src="" alt="" class="footer__icon" />
+						<div class="footer__info-item footer__social-box">
+							<div class="footer__social">
+								<img
+									src="./assets/img/tg.svg"
+									alt=""
+									class="footer__icon"
+								/>
+								<img
+									src="./assets/img/vk.svg"
+									alt=""
+									class="footer__icon"
+								/>
+								<img
+									src="./assets/img/wu.svg"
+									alt=""
+									class="footer__icon"
+								/>
+							</div>
+							<div class="footer__call-box">
+								<button class="footer__call">Заказать звонок</button>
+							</div>
 						</div>
-						<button class="footer__call">Заказать звонок</button>
 					</div>
 				</div>
 				<p class="footer__copyright">
@@ -61,5 +230,22 @@
 				</p>
 			</div>
 		</footer>
+
+		<script src="./swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper('.mySwiper', {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
 	</body>
 </html>
